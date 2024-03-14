@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  bithdayb:
+    image: ${DOCKER_REGISTRY-}bithdayb
+    build:
+      context: .
+      dockerfile: BithdayB/Dockerfile
